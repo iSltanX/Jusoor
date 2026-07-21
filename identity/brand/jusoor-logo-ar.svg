@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96" fill="none">
+  <style>@font-face{font-family:Almarai;src:url('../fonts/Almarai-ExtraBold.ttf')}text{font-family:Almarai,sans-serif;font-weight:800}</style>
+  <g transform="translate(16 8) scale(2)"><path d="M7 28c4.2 0 3.4-15 11.5-15" stroke="#2D4A47" stroke-width="2.7" stroke-linecap="round"/><path d="M21.5 13C29.6 13 28.8 28 33 28" stroke="#2D4A47" stroke-width="2.7" stroke-linecap="round"/><circle cx="7" cy="28" r="2.35" fill="#2D4A47"/><circle cx="33" cy="28" r="2.35" fill="#C9963B"/><rect x="17" y="9" width="6" height="8" rx="2" fill="#C9963B"/><rect x="19" y="11" width="2" height="4" rx="1" fill="#fff"/></g>
+  <text x="304" y="64" fill="#1A2421" font-size="46" text-anchor="end" direction="rtl">جُسور</text>
+</svg>

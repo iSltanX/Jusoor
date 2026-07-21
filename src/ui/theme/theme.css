@@ -1,0 +1,87 @@
+/*
+ * نقطة الدخول للسمة.
+ *
+ * الترتيب مقصود:
+ *   1. القيم الأصلية من حزمة الهوية، تُستهلك كما هي دون تعديل.
+ *   2. القيم المشتقة حرفيًا من دستور الهوية لما لا تغطيه الحزمة.
+ *   3. النظام الطباعي.
+ *
+ * السمة تُطبَّق بسمة data-theme على العنصر الجذري، والاتجاه واللغة بـ dir و lang.
+ */
+
+@import url('../../../identity/brand/tokens.css');
+@import url('./semantic-tokens.css');
+@import url('./typography.css');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* §11 هوية — عرض اللوحة 320–420px، والمرجعي 380px */
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  background: var(--j-bg);
+  color: var(--j-text);
+  font-family: var(--j-type-body-family);
+  font-size: var(--j-type-body-size);
+  font-weight: var(--j-type-body-weight);
+  line-height: var(--j-type-body-line);
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * §13 وصول — حلقة تركيز ظاهرة بعرض 2px ومسافة خارجية 2px باللون العنبري المناسب للسمة.
+ * تُطبَّق على كل عنصر تفاعلي ولا تُلغى في أي مكون.
+ */
+:focus-visible {
+  outline: var(--j-focus-width) solid var(--j-focus);
+  outline-offset: var(--j-focus-offset);
+}
+
+/*
+ * §13 وصول — prefers-contrast: more يقوي الحدود إلى 2px في الأزرار والحقول
+ * والبطاقات.
+ *
+ * القائمة تعدّ **البطاقات الفعلية** في المنتج لا صنفًا واحدًا عامًا: بطاقة
+ * المساحة وبطاقة الصفحة وصف الاختيار ونقطة التوقف ورسالة النظام ولوحة الترتيب
+ * كلها أسطح محدودة بحد، وكان الحد لا يقوى إلا في `j-surface-card` وحدها —
+ * فيبقى أغلب ما يراه المستخدم بحدّ رفيع رغم طلبه تباينًا أعلى.
+ */
+@media (prefers-contrast: more) {
+  .button,
+  .field-control,
+  .workspace-card,
+  .page-card,
+  .compact-workspace,
+  .tab-picker > div,
+  .settings-link,
+  .system-message,
+  .restore-notice,
+  .search-field,
+  .last-checkpoint,
+  .next-action-card,
+  .dialog-card {
+    border-width: 2px;
+  }
+}
+
+/*
+ * §13 وصول — prefers-reduced-motion يخفض الحركة إلى تغير فوري مفهوم،
+ * ويلغي التمرير السلس والحركات المتتابعة.
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

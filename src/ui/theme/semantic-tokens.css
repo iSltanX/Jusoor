@@ -1,0 +1,113 @@
+/*
+ * القيم التنفيذية المشتقة حرفيًا من دستور الهوية.
+ *
+ * هذا الملف يكمّل identity/brand/tokens.css ولا يستبدله ولا يعيد تعريف ما فيه.
+ * كل قيمة هنا منصوصة في دستور الهوية؛ لا قيمة مخترعة، ولا قيمة مُرقّاة من index.css وحده.
+ *
+ * مراجع الأبواب:
+ *   §6.2 العنبري · §6.3 المحايدات الدافئة · §6.4 الألوان الدلالية
+ *   §6.5 سمات الوضع الفاتح والداكن · §8.1 القياسات · §13 الوصول
+ *
+ * ملاحظة تسمية: يعرّف §8.1 حدودًا بالقيم thin: 1px و strong: 1.5px (عرض)،
+ * بينما يعرّف §6.5 border و border-strong (لون). لتفادي تصادم الاسمين
+ * سُمّيت قيم العرض ‎--j-border-width-*‎. القيم منقولة حرفيًا؛ الاختلاف في التسمية فقط.
+ */
+
+:root {
+  /* §6.2 — العنبري. الدرجة 500 معرَّفة في identity/brand/tokens.css ولا تُكرر هنا. */
+  --j-accent-50: #fcf8ee;
+  --j-accent-100: #f7efd9;
+  --j-accent-200: #eed9a8;
+  --j-accent-300: #e0bc6e;
+  --j-accent-400: #d39f48;
+  --j-accent-600: #a9742a;
+  --j-accent-700: #825521;
+
+  /* §6.3 — المحايدات الدافئة */
+  --j-neutral-0: #ffffff;
+  --j-neutral-25: #fafaf8;
+  --j-neutral-50: #f5f4f0;
+  --j-neutral-100: #eeecea;
+  --j-neutral-200: #ddd9d3;
+  --j-neutral-300: #c7c2ba;
+  --j-neutral-400: #9c9891;
+  --j-neutral-500: #737773;
+  --j-neutral-600: #505c59;
+  --j-neutral-700: #394440;
+  --j-neutral-800: #26312e;
+  --j-neutral-900: #1a2421;
+  --j-neutral-950: #101816;
+
+  /* §6.4 — الألوان الدلالية. الألوان الأمامية معرَّفة في tokens.css؛ هنا خلفيات الحالة والمعلومة. */
+  --j-success-bg: #e8f4f8;
+  --j-warning-bg: #f9efe4;
+  --j-danger-bg: #fbecea;
+  --j-info: #596a75;
+  /* خلفية المعلومة المحايدة — من المصدر التنفيذي index.css (progress-badge.paused وworkspace-state.frozen) */
+  --j-info-bg: #edf0f2;
+
+  /*
+   * نغمات هوية الموقع — من `SiteFavicon` في المصدر التنفيذي index.css:
+   * `.site-favicon.code { color:#5d55a5; background:#eeecfa; border-color:#d5d0ef }`
+   * وحدا paper (#efc8c5) وquestion (#ebd1b5). خلفيات فاتحة بحبر داكن تعمل
+   * في السمتين كخلفيات الحالات الدلالية.
+   */
+  --j-favicon-code-ink: #5d55a5;
+  --j-favicon-code-bg: #eeecfa;
+  --j-favicon-code-border: #d5d0ef;
+  --j-favicon-paper-border: #efc8c5;
+  --j-favicon-question-border: #ebd1b5;
+
+  /* §8.1 — الحدود (عرض) */
+  --j-border-width-thin: 1px;
+  --j-border-width-strong: 1.5px;
+
+  /* §8.1 — الظلال */
+  --j-shadow-sm: 0 1px 3px rgb(17 31 30 / 0.08);
+  --j-shadow-md: 0 8px 24px rgb(17 31 30 / 0.1);
+
+  /*
+   * ظلال المصدر التنفيذي index.css (مصادر الحقيقة §2 بند 4):
+   * ظل المنطقة السفلية `.panel-bottom-action` وظل بطاقة المساحة `.workspace-card`.
+   */
+  --j-shadow-up: 0 -8px 20px rgb(17 31 30 / 0.04);
+  --j-shadow-card: 0 1px 0 rgb(17 31 30 / 0.02);
+
+  /* §8.1 — نصف قطر إضافي يظهر في التنفيذ الموسع */
+  --j-radius-xl: 16px;
+
+  /* §13 — حلقة التركيز */
+  --j-focus-width: 2px;
+  --j-focus-offset: 2px;
+}
+
+/* §6.5 — ما ينقص سمة الوضع الفاتح في identity/brand/tokens.css */
+[data-theme='light'] {
+  --j-surface-hover: #e7e9e5;
+  --j-border-strong: #9c9891;
+  --j-on-action: #ffffff;
+  --j-disabled: #eeecea;
+
+  /*
+   * سطح «الخطوة التالية» وحبره — من المصدر التنفيذي index.css
+   * (‏.next-line و.next-action-card): العنبري 50 وحبر العنبري 700 في الفاتح.
+   */
+  --j-next-surface: var(--j-accent-50);
+  --j-next-ink: var(--j-accent-700);
+}
+
+/* §6.5 — ما ينقص سمة الوضع الداكن في identity/brand/tokens.css */
+[data-theme='dark'] {
+  --j-surface-hover: #2d3936;
+  --j-border-strong: #606b67;
+  --j-on-action: #111f1e;
+  --j-disabled: #26312e;
+
+  /*
+   * القيمتان الداكنتان منقولتان حرفيًا من المصدر التنفيذي index.css:
+   * `[data-theme='dark'] .next-line { background: #2b251a }` وحبره `#edcf93`
+   * — عنبري خافت للوضع الداكن يحفظ التركيز من دون وهج (§6.5 هوية).
+   */
+  --j-next-surface: #2b251a;
+  --j-next-ink: #edcf93;
+}

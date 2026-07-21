@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#3D6460" stroke-opacity=".22"/></pattern></defs>
+  <rect width="1280" height="320" rx="24" fill="#111F1E"/><rect width="1280" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M74 218c90 0 72-140 190-140M310 78c118 0 100 140 190 140" stroke="#91B8B2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="74" cy="218" r="8" fill="#91B8B2"/><circle cx="500" cy="218" r="9" fill="#C9963B"/><rect x="270" y="58" width="34" height="42" rx="9" fill="#C9963B"/><rect x="282" y="68" width="10" height="22" rx="5" fill="#111F1E"/>
+  <text x="1190" y="134" fill="#fff" font-family="Almarai, sans-serif" font-weight="800" font-size="64" text-anchor="end" direction="rtl">جُسور</text>
+  <text x="1190" y="188" fill="#C3CCC8" font-family="Cairo, sans-serif" font-weight="500" font-size="26" text-anchor="end" direction="rtl">عُد إلى حيث توقفت. سياقك محفوظ.</text>
+  <text x="1190" y="228" fill="#91B8B2" font-family="Cairo, sans-serif" font-weight="500" font-size="18" text-anchor="end">Preserve context. Return and continue.</text>
+</svg>

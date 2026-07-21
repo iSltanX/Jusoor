@@ -1,0 +1,31 @@
+# بصمات الأصول المعتمدة في identity/ — منقولة من Jusoor-Identity-System-v2.zip
+# identity/ مجموعة منتقاة من الحزمة لا نسخة كاملة منها؛ انظر docs/identity-source.md
+# لا تُعدَّل يدويًا. أي اختلاف يعني تعديلًا غير مقصود على مصدر معتمد.
+# التحقق: pnpm verify:identity
+c9be710856649d423363304bfe405e8d93c3620040d88efc1c86a9240f437897  identity/brand/chrome-store-1280x800.png
+e5bbaca6c939f4dcd1ec41a324d69fce8d63d692dba1a6d94e8b5352f7e17ddf  identity/brand/favicon.ico
+fc1c74e913466794317ec213d7e2280b03024bb9f4de99dcecdb1bfde2c56750  identity/brand/favicon.svg
+25c7c7812eff655db1cebe7a887b4d398a5a772ce41127c810af7ca0786a0359  identity/brand/icon-128-dark.png
+25c7c7812eff655db1cebe7a887b4d398a5a772ce41127c810af7ca0786a0359  identity/brand/icon-128.png
+ff1cadebcd6e9bc7ba54293604359570b613a67899d2b2144a6cc9d656df137f  identity/brand/icon-16.png
+1c8689434ee734d44d3e41b78faf464b930041055d69c72421fb5ae1083c0d87  identity/brand/icon-24.png
+b43b64c10bf04be282684b4e4e23bffb21a8e606ec4f861e7f818557488d3f76  identity/brand/icon-32.png
+0a1ff7a127d8e43a45ec934de7935587752dd7a17e9e5e9788d3f22c8b823ae5  identity/brand/icon-48.png
+d58d550612baedfe1bbcc1a0788225054484fe1ce63c1166d3f16af8581d2b79  identity/brand/icons.svg
+000644c5ff4c4baaa4626fc2dd8cb6d4d4de04206a42f31ebab83a0830aa5312  identity/brand/jusoor-logo-ar.svg
+508a213416f19e40de1ed75600948b68573c9ca82bf959a91856a0c202ba7541  identity/brand/jusoor-logo-dual.svg
+1d962c2cdea442376ebc6d79a3e3dd3d3b8290c9b67ba74eb0b14885e14b049d  identity/brand/jusoor-logo-en.svg
+ce7f3bac5c3f9095f05973e096e20628197b68e1fac86c325d87a0141dab52fb  identity/brand/jusoor-mark-mono.svg
+f1d1ecbaaa52ed011601866be9ad14e73e5172b307925cbc41876d8a3fcbe58d  identity/brand/jusoor-mark.svg
+e56b5636b5dd8cab41e670336f035c7a54cca9655b5d4ba56ed640717691b6c3  identity/brand/og-image.png
+fbc83196292b42cf1d04884ff87a7255c16e70f339bf7fe1df584f9de68a7125  identity/brand/presentation-bg.png
+bfa0dd81b10825e805e8dd544a21c8151e4795b413b9d164980814a2433c60cc  identity/brand/presentation-bg.svg
+1358d4f0731850c83fa03f4fd66fa2fb6945a5eda02b07f85732f2d32d0b151f  identity/brand/product-hero.png
+b46f737764206c80d00dfa599f947538a28164926cefc4ab686a6c98fe28e989  identity/brand/readme-header.svg
+c9c94e18e2f86e9e6fade552c4925dd59221b62576cb45a78a300e6a2e2b3094  identity/brand/repository-cover.png
+ceffb8d061134c648b008f0c611cb3feda2e0799f07415731c8fc64136a1b8ea  identity/brand/tokens.css
+538362172e73ad3fa82e6d4e2a051390d65a2d9441e21f430e9891eef164a288  identity/brand/tokens.json
+06401391b5b39fbcf2bc0c6a6e03faf992435e7b011183a1861737e913af8613  identity/fonts/Almarai-Bold.ttf
+9f8f72f1cb06db787a5b32e314a109267e53c505c9f9ab0dad5aa8ff8b219a07  identity/fonts/Almarai-ExtraBold.ttf
+5b5cad33c8e5922083728d271cdcda91f96ba291f1307eccc4f4ef732dc19622  identity/fonts/Almarai-Regular.ttf
+667c987182391c91f4e57a2f455b1794fb5e3ee6ca4ef3383e86bb690fa9c964  identity/fonts/Cairo-Variable.ttf

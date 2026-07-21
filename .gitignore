@@ -1,0 +1,14 @@
+node_modules/
+.output/
+.wxt/
+stats.html
+*.zip
+!Jusoor-Identity-System-v2.zip
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+__MACOSX/
+**/__MACOSX/
+._*
+*.log
