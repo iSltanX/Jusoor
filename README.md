@@ -697,6 +697,6 @@ licenses/         تراخيص الخطوط (OFL 1.1)
 
 <p align="center">
   <sub>صُمّم وطُوّر بواسطة <strong>سلطان · Sultan</strong> — Design &amp; Development</sub><br>
-  <sub>للتواصل: <a href="mailto:iSultanby@gmail.com">iSultanby@gmail.com</a></sub><br>
+  <sub>للتواصل: <a href="mailto:S@BySltan.com">S@BySltan.com</a></sub><br>
   <sub><a href="CHANGELOG.md">سجل التغييرات</a> · <a href="docs/privacy-policy.md">سياسة الخصوصية</a> · <a href="docs/decisions/">القرارات</a> · <a href="README.en.md">English</a></sub>
 </p>
