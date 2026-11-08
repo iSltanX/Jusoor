@@ -6,3 +6,9 @@
 #   spawn-sync — توافقية لإصدارات Node قديمة.
 # أي تبعية تحتاج سكربت بناء مستقبلًا تُضاف هنا صراحةً بعد مراجعة.
 onlyBuiltDependencies: []
+
+# pnpm 11.11 يعدّ أي سكربت تثبيت لم يُحسم أمره خطأً يُفشل `pnpm install`
+# (ERR_PNPM_IGNORED_BUILDS)، فيُسجَّل الرفض هنا صراحةً. القيمة false تعني: لا يُشغَّل.
+allowBuilds:
+  esbuild: false
+  spawn-sync: false
