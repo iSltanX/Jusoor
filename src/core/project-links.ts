@@ -6,8 +6,8 @@
  * الاتصال وقت التشغيل (`connect-src 'none'`) باقٍ كما هو — انظر
  * docs/decisions/0017-about-page-and-developer-credit.md
  *
- * الحساب من مالك المشروع، واسم المستودع من docs/repository.md («jusoor»).
- * **المستودع لم يُنشأ بعد وقت كتابة هذا الملف**؛ عند إنشائه باسم مغاير يُحدَّث
+ * الحساب من مالك المشروع، والمستودع على GitHub هو `iSltanX/Jusoor`، وGitHub يحلّ
+ * `iSltanX/jusoor` إليه دون حساسية لحالة الأحرف. إن تغيّر الاسم يُحدَّث
  * `REPOSITORY_URL` هنا وحده، ويتبعه كل ما اشتُق منه.
  *
  * حارس `tests/guards/developer-credit.test.ts` يثبت أن كل الروابط تحت الحساب
@@ -17,7 +17,7 @@
 /** حساب المطور المعتمد على GitHub. */
 export const DEVELOPER_GITHUB_URL = 'https://github.com/iSltanX'
 
-/** مستودع جُسور — الاسم المعتمد في docs/repository.md. */
+/** مستودع جُسور على GitHub. */
 export const REPOSITORY_URL = `${DEVELOPER_GITHUB_URL}/jusoor`
 
 /** صفحة الإصدارات. */

@@ -85,7 +85,7 @@ describe('حارس روابط المشروع', () => {
     }
   })
 
-  it('المستودع بالاسم المعتمد في docs/repository.md', () => {
+  it('المستودع بالاسم المعتمد iSltanX/jusoor', () => {
     expect(REPOSITORY_URL).toBe('https://github.com/iSltanX/jusoor')
   })
 
